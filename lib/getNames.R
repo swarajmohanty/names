@@ -31,7 +31,7 @@ getNames<-function(year.ind=seq(1950,2011),number="p",female=TRUE){
   # unique names from all of the years you looked at
   unique.names<-unique(names)
 
-  # create results matrix, rows are the unique names from all years, columns are the years #
+  
   names.mat<-matrix(nrow=length(unique.names),ncol=length(year.ind))
   rownames(names.mat)<-unique.names 
   nms<-rep(NA,length(year.ind))
